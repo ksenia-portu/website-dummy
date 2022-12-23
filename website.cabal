@@ -1,0 +1,24 @@
+name:          website
+version:       0.0.0
+cabal-version: >= 1.8
+build-type:    Simple
+
+executable          website
+    hs-source-dirs: .
+    main-is:        Main.hs
+    extensions:     OverloadedStrings
+    build-depends:  base   >= 4      && < 5
+                  , scotty
+    ghc-options:    -Wall
+                    -Wcompat
+                    -Widentities
+                    -Wincomplete-record-updates
+                    -Wincomplete-uni-patterns
+                    -Wmissing-export-lists
+                    -Wmissing-home-modules
+                    -Wpartial-fields
+                    -Wredundant-constraints
+                    -O2
+                    -threaded
+                    -rtsopts
+                    -with-rtsopts=-N
