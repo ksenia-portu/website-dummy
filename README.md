@@ -1,2 +1,2 @@
 # website-dummy
-![Deploy badge](https://github.com/ksenia-portu/website-dummy/actions/workflows/deploy.yml/badge.svg)
+[![GitHub CI](https://github.com/ksenia-portu/website-dummy/actions/workflows/test.yml/badge.svg)](https://github.com/ksenia-portu/website-dummy/actions)
