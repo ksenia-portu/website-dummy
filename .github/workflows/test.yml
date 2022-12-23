@@ -3,6 +3,11 @@ on:
   pull_request:
   push:
 jobs:
+  ormolu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: mrkkrp/ormolu-action@v8
   tests:
     runs-on: ubuntu-latest
     steps:
